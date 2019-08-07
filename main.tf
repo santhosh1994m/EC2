@@ -1,6 +1,6 @@
 provider "aws" {
   shared_credentials_file = "~/.aws/credentials"
-  
+  region = "us-west-2"
   }
   
 resource "aws_vpc" "san_test"{
